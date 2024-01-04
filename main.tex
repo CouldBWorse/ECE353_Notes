@@ -1,0 +1,238 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  My documentation report
+%  Objetive: Explain what I did and how, so someone can continue with the investigation
+%
+% Important note:
+% Chapter heading images should have a 2:1 width:height ratio,
+% e.g. 920px width and 460px height.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[11pt,fleqn,openany]{book} % Default font size and left-justified equations
+\usepackage{multicol}
+\usepackage[top=3cm,bottom=3cm,left=3.2cm,right=3.2cm,headsep=10pt,letterpaper]{geometry} % Page margins
+
+\usepackage{xcolor} % Required for specifying colors by name
+\definecolor{ocre}{RGB}{52,177,201} % Define the orange color used for highlighting throughout the book
+
+% Font Settings
+\usepackage{avant} % Use the Avantgarde font for headings
+%\usepackage{times} % Use the Times font for headings
+\usepackage{mathptmx} % Use the Adobe Times Roman as the default text font together with math symbols from the Sym­bol, Chancery and Com­puter Modern fonts
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+\usepackage[utf8]{inputenc} % Required for including letters with accents
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage{amsthm}
+
+% Bibliography
+\usepackage[style=alphabetic,sorting=nyt,sortcites=true,autopunct=true,babel=hyphen,hyperref=true,abbreviate=false,backref=true,backend=biber]{biblatex}
+\addbibresource{bibliography.bib} % BibTeX bibliography file
+\defbibheading{bibempty}{}
+
+\input{structure} % Insert the commands.tex file which contains the majority of the structure behind the template
+
+%----------------------------------------------------------------------------------------
+%	Definitions of new commands
+%----------------------------------------------------------------------------------------
+
+\def\R{\mathbb{R}}
+\newcommand{\cvx}{convex}
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begingroup
+\thispagestyle{empty}
+\AddToShipoutPicture*{\put(0,0){\includegraphics[scale=1.25]{esahubble}}} % Image background
+\centering
+\vspace*{5cm}
+\par\normalfont\fontsize{35}{35}\sffamily\selectfont
+\textbf{ECE 353 - Winter 2024}\\
+{\LARGE Introduction to Probability and Random Signals}\par % Book title
+\vspace*{1cm}
+{\Huge Dustin Erickson}\par % Author name
+\endgroup
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+\chapterimage{plant.jpg} % Table of contents heading image
+
+\pagestyle{empty} % No headers
+
+\tableofcontents % Print the table of contents itself
+
+%\cleardoublepage % Forces the first chapter to start on an odd page so it's on the right
+
+\pagestyle{fancy} % Print headers again
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER 1
+%----------------------------------------------------------------------------------------
+
+\chapterimage{head2.png} % Chapter heading image
+\chapter{Class Overview}
+\section{Sylabus}
+\subsection{Due Dates}
+\begin{itemize}
+  \item Assignments:
+
+    Homework 1 - xx/xx/xx  \hspace{3 mm}  Homework 2 - xx/xx/xx \hspace{3 mm} Homework 3 - xx/xx/xx
+
+    Homework 4 - xx/xx/xx \hspace{3 mm}  Homework 5 - xx/xx/xx \hspace{3 mm} Homework 6 - xx/xx/xx 
+
+    Homework 7 - xx/xx/xx \hspace{3 mm}  Homework 8 - xx/xx/xx \hspace{3 mm} Homework 9 - xx/xx/xx 
+\\ 
+  \item Labs:
+
+    Lab 1 - xx/xx/xx  \hspace{3 mm}  Lab 2 - xx/xx/xx \hspace{3 mm} Lab 3 - xx/xx/xx
+
+    Lab 4 - xx/xx/xx \hspace{3 mm}  Lab 5 - xx/xx/xx \hspace{3 mm} Lab 6 - xx/xx/xx 
+
+    Lab 7 - xx/xx/xx \hspace{3 mm}  Lab 8 - xx/xx/xx \hspace{3 mm} Lab 9 - xx/xx/xx 
+\\
+  \item Midterms:
+
+    Midterm 1 - xx/xx/xx \hspace{3mm} Midterm 2 - xx/xx/xx
+\\
+  \item Final:
+    Room xxxx in building BLANK on xx/xx/xx at xx:xx 
+\\
+\end{itemize}
+
+\subsection{Office Hours}
+\begin{itemize}[leftmargin=1cm]
+\item[Dr. Tim Fred:]  tim.fred@email.com, Kelly 1001, Monday | 2:00pm - 4:00pm 
+\item[TA 1:] Email, Office, Days and Times
+\item[TA 2:] Email, Office, Days and Times
+\end{itemize}
+\pagebreak
+
+\subsection{Grade Breakdown}
+\begin{multicols}{3}
+\begin{itemize}[leftmargin=1cm]
+\item[Homework:]  Percentage \%
+\item[Labs:] Percentage \%
+\item[Midterm:] Percentage \%
+\item[Final:] Percentage \%
+\end{itemize}
+
+\begin{tabular}{|c|c|} 
+\hline
+   Grade & Bounds  \\
+\hline
+  A+ & Percent \% \\ 
+  A & Percent \%  \\
+  A- & Percent \% \\ 
+  B+ & Percent \% \\ 
+  B & Percent \%  \\ 
+  B- & Percent \% \\ 
+
+\hline
+\end{tabular}
+
+\begin{tabular}{|c|c|} 
+\hline
+   Grade & Bounds  \\
+\hline
+  C+ & Percent \% \\ 
+  C & Percent \%  \\
+  C- & Percent \% \\ 
+  D+ & Percent \% \\ 
+  D & Percent \%  \\ 
+  D- & Percent \% \\ 
+
+\hline
+\end{tabular}
+
+\end{multicols}
+
+
+\subsection{Weekly Topics}
+\begin{center}
+\begin{tabular}{ |c|c|c| } 
+\hline
+  Week & Topic & Assignments \\
+\hline
+  1 & Topic for week 1 &  \\ 
+  2 & Topic for week 2 & \\ 
+  3 & Topic for week 3 & \\ 
+  4 & Topic for week 4 & \\ 
+  5 & Topic for week 5 & \\ 
+  6 & Topic for week 6 & \\ 
+  7 & Topic for week 7 & \\ 
+  8 & Topic for week 8 & \\ 
+  9 & Topic for week 9 & \\ 
+  10 & Topic for week 10 & \\
+\hline
+\end{tabular}
+\end{center}
+
+\subsection{Additional Policies}
+Put the weird/annoying/dumb policies here!
+
+\section{Material Introduction}
+This class is about blah blah blah...
+
+\chapterimage{boat.png} 
+\chapter{Chapter}
+
+This is plain text as a filler!
+
+\chapterimage{outdoors2.jpg} 
+\chapter{Chapter}
+
+This is plain text as a filler!
+
+\chapterimage{band1.png} 
+\chapter{Formatting}
+% chapter  (end)
+\section{Template Options}
+\subsection{Plain Text}
+Here is an example of what plain text would look like. Most of the notes should look like this to make it faster to type. Refactor the code to make the notes pop after writing down the information in class.
+\subsection{Blocks}
+
+\begin{code}[This is an example code block]~\\
+\begin{verbatim}
+Write your code verbatim in here!
+  jmp   0hff    0b1011100   
+  ldi   rax     0h43 
+  sta   0h12  
+\end{verbatim}
+\end{code}
+
+\begin{definition}[This is an example definition block]
+Write any definition in here!
+\end{definition}
+
+\begin{example}[Here is an example problem]~\\
+  Question: How many bits are in a byte?\\ 
+  Solution: There are 8 bits in a byte.
+\end{example}
+
+\begin{theorem}[This is a theorem]~\\
+This is a theorem
+\end{theorem}
+
+
+\section{Images}
+Here is an example of importing images. Write the drawing down on your tablet then add it to the notes here.\\
+\begin{center}
+  \includegraphics[scale=0.5]{1_1.png}
+  \begin{capfig}[Figure caption]
+  \end{capfig}
+
+  \includegraphics[scale=0.75]{1_2}
+  \begin{capfig}[Figure caption]
+  \end{capfig}
+
+\end{center}
+
+\end{document}
