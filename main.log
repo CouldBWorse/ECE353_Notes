@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.16)  3 JAN 2024 22:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.12.16)  7 JAN 2024 20:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1400,29 +1400,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--93
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--101
+Underfull \hbox (badness 10000) in paragraph at lines 96--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--105
+Underfull \hbox (badness 10000) in paragraph at lines 98--101
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--108
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3
-
- <./Pictures//head2.png>]
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 127.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+ 119.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1430,47 +1419,49 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 127.
+ 119.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 127.
+ 119.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 127.
+ 119.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-27.
+19.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 127.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 119.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 127.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 119.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 127.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 119.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [4]
+) [3
+
+ <./Pictures//head2.png>] [4]
 Chapter 2.
 <Pictures//boat.png, id=121, 1027.6794pt x 514.0806pt>
 File: Pictures//boat.png Graphic file (type png)
 <use Pictures//boat.png>
-Package pdftex.def Info: Pictures//boat.png  used on input line 185.
+Package pdftex.def Info: Pictures//boat.png  used on input line 176.
 (pdftex.def)             Requested size: 614.295pt x 307.30548pt.
 [5
 
@@ -1479,7 +1470,7 @@ Chapter 3.
 <Pictures//outdoors2.jpg, id=126, 2140.99875pt x 1071.00125pt>
 File: Pictures//outdoors2.jpg Graphic file (type jpg)
 <use Pictures//outdoors2.jpg>
-Package pdftex.def Info: Pictures//outdoors2.jpg  used on input line 190.
+Package pdftex.def Info: Pictures//outdoors2.jpg  used on input line 181.
 (pdftex.def)             Requested size: 614.295pt x 307.29764pt.
 [6
 
@@ -1488,21 +1479,21 @@ Chapter 4.
 <Pictures//band1.png, id=131, 1027.6794pt x 514.0806pt>
 File: Pictures//band1.png Graphic file (type png)
 <use Pictures//band1.png>
-Package pdftex.def Info: Pictures//band1.png  used on input line 195.
+Package pdftex.def Info: Pictures//band1.png  used on input line 186.
 (pdftex.def)             Requested size: 614.295pt x 307.30548pt.
-Package mdframed Info: mdframed works in twoside mode on input line 202.
+Package mdframed Info: mdframed works in twoside mode on input line 193.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 202.
+(mdframed)              on input line 193.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 202.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 193.
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
 
  []
 
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-03.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+94.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
@@ -1510,20 +1501,20 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+Package mdframed Info: mdframed works in twoside mode on input line 202.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 202.
+Package mdframed Info: mdframed works in twoside mode on input line 206.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 206.
 Package mdframed Info: mdframed works in twoside mode on input line 211.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 211.
-Package mdframed Info: mdframed works in twoside mode on input line 215.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 215.
-Package mdframed Info: mdframed works in twoside mode on input line 220.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 220.
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--227
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
 
  []
 
@@ -1536,14 +1527,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <Pictures//1_1.png, id=142, 529.98pt x 469.755pt>
 File: Pictures//1_1.png Graphic file (type png)
 <use Pictures//1_1.png>
-Package pdftex.def Info: Pictures//1_1.png  used on input line 228.
+Package pdftex.def Info: Pictures//1_1.png  used on input line 219.
 (pdftex.def)             Requested size: 264.98933pt x 234.87692pt.
 LaTeX Font Info:    Font shape `T1/pag/m/it' in size <10> not available
-(Font)              Font shape `T1/pag/m/sl' tried instead on input line 229.
+(Font)              Font shape `T1/pag/m/sl' tried instead on input line 220.
 <Pictures//1_2.png, id=144, 318.18875pt x 316.18124pt>
 File: Pictures//1_2.png Graphic file (type png)
 <use Pictures//1_2.png>
-Package pdftex.def Info: Pictures//1_2.png  used on input line 232.
+Package pdftex.def Info: Pictures//1_2.png  used on input line 223.
 (pdftex.def)             Requested size: 238.64096pt x 237.13535pt.
 \tf@ptc=\write7
 \openout7 = `main.ptc'.
@@ -1558,7 +1549,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  33598 strings out of 478287
  629673 string characters out of 5849288
- 1457770 words of memory out of 5000000
+ 1455770 words of memory out of 5000000
  51063 multiletter control sequences out of 15000+600000
  534208 words of font info for 163 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1569,7 +1560,7 @@ m-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/ua
 gd8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/uagk8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/uagko8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (8 pages, 23432179 bytes).
+Output written on main.pdf (8 pages, 23433279 bytes).
 PDF statistics:
  189 PDF objects out of 1000 (max. 8388607)
  142 compressed objects within 2 object streams
